@@ -1,5 +1,5 @@
 # Determine sex from Bam file
-Determine sex in Homo sapiens sample from bam file using a simple python script.
+Determine sex in Homo sapiens sample from sorted bam file using a simple python script.
 
 ## Usage:
 ```
