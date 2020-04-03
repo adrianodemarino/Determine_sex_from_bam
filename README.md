@@ -7,8 +7,8 @@ python determineSex.py file_name_1.bam file_name_2.bam [...]
 ```
 
 ## Installation required:
-1. (http://www.htslib.org/) [Samtools]
-2. (https://pandas.pydata.org/) [Pandas]
+1. [Samtools] (http://www.htslib.org/) 
+2. [Pandas] (https://pandas.pydata.org/) 
 
 ## Installation component required:
 ```
