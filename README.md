@@ -29,4 +29,9 @@ pip install pandas
 
 ## Licence
 
-[MIT LICENCE](https://github.com/adrianodemarino/Determine_sex_from_bam/blob/master/LICENSE.md) 
+[MIT LICENCE](https://github.com/adrianodemarino/Determine_sex_from_bam/blob/master/LICENSE.md)
+
+## Author info
+
+Adriano De Marino PhD student
+contact: <adriano.demarino@gmail.com>
