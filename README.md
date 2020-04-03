@@ -33,6 +33,6 @@ pip install pandas
 
 ## Author info
 
-Adriano De Marino PhD student
+Adriano De Marino, MS, PhD student
 
 Contact: <adriano.demarino@gmail.com>
