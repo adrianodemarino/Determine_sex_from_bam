@@ -10,7 +10,7 @@ python determineSex.py **file_name_1.bam** **file_name_2.bam** [...]
 1. Samtools
 2. library pandas
 
-## Installation componed required:
+## Installation component required:
 ```
 conda install -c bioconda samtools
 pip install pandas
