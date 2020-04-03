@@ -3,7 +3,7 @@ Determine sex in Homo sapiens sample from bam file using a simple python script.
 
 ## Usage:
 ```
-python determineSexFromBam.py file_name_1.bam file_name_2.bam [...]
+python determineSexFromBam.py file_name_1.bam file_name_2.bam [...] file_name_n.bam
 ```
 
 ## Component required:
