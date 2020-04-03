@@ -6,7 +6,7 @@ Determine sex in Homo sapiens sample from bam file using a simple python script.
 python determineSex.py file_name_1.bam file_name_2.bam [...]
 ```
 
-## Installation required:
+## Component required:
 1. [Samtools](http://www.htslib.org/) 
 2. [Pandas](https://pandas.pydata.org/) 
 
