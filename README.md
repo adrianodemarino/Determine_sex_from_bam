@@ -1,8 +1,8 @@
 # Determine_sex_from_bam
-Determine sex from bam in homo sapiens file using a simple python script
+Determine sex of Homo sapiens sample from bam file using a simple python script.
 
 ## Usage:
-python determineSex.py *bam 
+python determineSex.py **file_name_1.bam** **file_name_2.bam** [...]
 
 ## Output:
 
@@ -15,4 +15,7 @@ python determineSex.py *bam
 |	190169	|	MALE	|
 |	190210	|	FEMALE	|
 
+## Licence
 
+This software is under 
+GNU General Public License version 3
