@@ -29,5 +29,4 @@ pip install pandas
 
 ## Licence
 
-This software is under 
-GNU General Public License version 3
+[MIT LICENCE](https://github.com/adrianodemarino/Determine_sex_from_bam/blob/master/LICENSE.md) 
