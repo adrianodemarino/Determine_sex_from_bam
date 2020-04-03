@@ -7,6 +7,7 @@ python determineSex.py *bam
 ## Output:
 
 |	190106	|	MALE	|
+| ---  | ---  |
 |	191093	|	MALE	|
 |	193012	|	FEMALE	|
 |	182151	|	FEMALE	|
