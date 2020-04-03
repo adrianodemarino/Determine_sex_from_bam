@@ -1,6 +1,17 @@
 import os,sys
 import pandas as pd
 
+'''
+  +--------------------------------------------------------+
+  |             Determine Sex in Homo Sapiens              |
+  +--------------------------------------------------------+
+  |  Author:   Adriano De Marino                           |
+  |  Date:     April 2020                                  |
+  |  Contact:  adriano.demarino@gmail.com                  |
+  |  Version:  1.0.0                                       |
+  +--------------------------------------------------------+
+'''
+
 for file in sys.argv[1:]:
 	
 	basename = file.replace(".bam","")
