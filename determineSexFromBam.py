@@ -20,6 +20,9 @@ for file in sys.argv[1:]:
 	grep -v "Un" | \
 	grep -v "random" | \
 	grep -v "alt" | \
+	grep -v "GL" | \
+	grep -v "NC" | \
+	grep -v "hs" | \
 	grep -v "*" | \
 	grep -v "M" | \
 	sort -V | \
