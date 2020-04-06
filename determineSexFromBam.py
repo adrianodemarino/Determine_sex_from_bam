@@ -24,6 +24,7 @@ for file in sys.argv[1:]:
 	grep -v "NC" | \
 	grep -v "hs" | \
 	grep -v "*" | \
+	grep -v "fix" | \
 	grep -v "M" | \
 	sort -V | \
 	cut -f 1,3 > /tmp/{out}.sex'.format(file=file,out=basename)
