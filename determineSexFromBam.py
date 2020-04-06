@@ -38,9 +38,9 @@ for file in sys.argv[1:]:
 	
 	autosom = int(df.loc[0:21,1].mean()) 
 
-	if df.loc[22,1]/autosom <= 0.5: 
-		print(basename,"\t","MALE",sep="") 
-	else: 
-		print(basename,"\t","FEMALE",sep="")
+if df.loc[22,1]/autosom <= 0.8: 
+	print(basename,"\t","MALE",sep="") 
+else: 
+	print(basename,"\t","FEMALE",sep="")
 
 exit()
