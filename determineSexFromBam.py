@@ -14,7 +14,7 @@ import pandas as pd
 
 for file in sys.argv[1:]:
 	
-	basename = file.replace(".bam","")
+	basename = os.path.basename(file).replace(".bam","")
 	
 	bashCommand = 'samtools idxstats {file} | \
 	grep -v "Un" | \
