@@ -1,5 +1,6 @@
 # Determine sex from Bam file
 Determine sex in Homo sapiens sample from sorted bam file fastly using a simple python script.
+THIS IS A BETA VERSION, NEED IMPROVMENT. 
 
 ## Usage:
 ```
