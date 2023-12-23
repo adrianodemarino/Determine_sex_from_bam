@@ -1,6 +1,13 @@
 # Determine sex from Bam file
 Determine sex in Homo sapiens sample from sorted bam file fastly using a simple python script.
-THIS IS A BETA VERSION, NEED IMPROVMENT. 
+
+Dec 2023 - new version
+### Key Changes:
+- **Error Handling**: Added more detailed error handling and messages.
+- **Parameterization of Filters**: Users can now pass a comma-separated list of filters as a second argument. If no filters are provided, a default list is used.
+- **Flexibility in Reference Genome**: The script now handles different chromosome naming conventions by checking if chromosome names are numeric for autosomes and looking for 'Y' in the chromosome name for Y chromosome reads.
+- **Sex Determination Using X/Y Coverage Ratio**: The `calculate_sex` function now calculates the sum of reads for the X chromosome and the Y chromosome separately. It then computes the ratio of X to Y coverage. If this ratio is greater than 4, it classifies the sample as female; otherwise, it classifies it as male.
+- **Handling Zero Y Reads**: To avoid division by zero, if the Y reads are zero, the function automatically classifies the sample as female.
 
 ## Usage:
 ```
