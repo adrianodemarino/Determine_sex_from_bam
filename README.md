@@ -11,7 +11,7 @@ Dec 2023 - new version
 
 ## Usage:
 ```
-python determineSexFromBam.py file_name_1.bam file_name_2.bam [...] file_name_n.bam
+python determineSexFromBam.py [bam_file] [optional: filters]
 ```
 
 ## Component required:
@@ -41,6 +41,7 @@ pip install pandas
 
 ## Author info
 
-Adriano De Marino, MS, PhD student
+Sr Bioinfo Scientist
+Adriano De Marino, PhD 
 
 Contact: <adriano.demarino@gmail.com>
